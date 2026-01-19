@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gazeta e Shkollës Sami Frashëri</title>
+  <style>
+    :root {
+      --main-red: rgb(245, 25, 50);
+      --black: #000;
+      --white: #fff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      color: var(--white);
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .overlay {
+      background-color: rgba(0,0,0,0.65);
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: var(--main-red);
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: var(--white);
+    }
+
+    #date {
+      margin-top: 10px;
+      font-size: 1rem;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h2 {
+      color: var(--main-red);
+      border-bottom: 2px solid var(--main-red);
+      padding-bottom: 5px;
+    }
+
+    .quote {
+      font-style: italic;
+      font-size: 1.2rem;
+      background-color: rgba(255,255,255,0.1);
+      padding: 20px;
+      border-left: 5px solid var(--main-red);
+    }
+
+    .poem {
+      white-space: pre-line;
+      line-height: 1.6;
+      background-color: rgba(0,0,0,0.4);
+      padding: 20px;
+    }
+
+    .clubs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .club {
+      background-color: rgba(255,255,255,0.1);
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+    .club img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+
+    footer {
+      background-color: var(--black);
+      color: var(--white);
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <header>
+      <h1>Gazeta e Shkollës Sami Frashëri</h1>
+      <div id="date"></div>
+    </header>
+
+    <section>
+      <h2>Citim i Ditës – Sami Frashëri</h2>
+      <div class="quote" id="quote"></div>
+    </section>
+
+    <section>
+      <h2>Poezi</h2>
+      <div class="poem">
+Arratisur, syrgjynosur,
+rraskapitur dhe katosur
+po vajtonj pa funt, pa shpresë,
+anës elbë-s, anës spree-së.
+Ku e lam' e ku na mbeti,
+vaj-vatani e mjer mileti,
+anës detit i palarë,
+anës dritës i paparë,
+pranë sofrës i pangrënë,
+pranë dijes i panxënë,
+lakuriq dhe i dregosur,
+trup e shpirt i sakatosur.
+
+Se ç'e shempnë derbederët,
+mercenarët dhe bejlerët,
+se ç'e shtypnë jabanxhinjtë,
+se ç'e shtrythnë fajdexhinjtë,
+se ç'e pren' e se ç'e vranë,
+Ç'e shkretuan anembanë,
+nënë thundrën e përdhunës
+anës vjosës, anës bunës.
+
+Çirem, digjem i vrerosur,
+sakatosur, çarmatosur,
+as i gjall', as i varrosur,
+pres një shenj' e pres një dritë,
+pres me vjet' e pres me ditë,
+se ç'u tera, se ç'u mpaka,
+se ç'u çora, se ç'u mplaka,
+lark prej vatrës dhe prej punës,
+anës rinit, anës tunës.
+Çakërdisur, batërdisur,
+përpëlitur dhe zalisur,
+ËndËronj pa funt, pa shpresë,
+anës elbë-s, anës spree-së.
+
+dhe një zë vengon nga lumi,
+më buçet, më zgjon nga gjumi,
+se mileti po gatitet,
+se tirani lebetitet,
+se pëlcet, kërcet furtuna,
+fryhet vjosa, derdhet buna,
+skuqet semani dhe drini,
+dridhet beu dhe zengjini,
+se pas vdekjes ndriti jeta
+dhe kudo gjëmon trumbeta.
+ngrehuni dhe bjeruni,
+korini dhe shtypini,
+katundar' e punëtorë,
+që nga shkodra gjer në vlorë!
+
+ky ilaç e ky kushtrim
+më bën djal' e më bën trim,
+më jep forc' e më jep shpresë,
+anës elbë-s, anës spree-së.
+se pas dimrit vjen një verë,
+që do kthehemi njëherë,
+pranë vatrës, pranë punës,
+anës vjosës, anës bunës.
+
+arratisur, syrgjynosur,
+raskapitur e katosur,
+brohoras me bes' e shpresë,
+anës elbë-s, anës spree-së.
+
+AUTOR: Fan S. Noli
+      </div>
+    </section>
+
+    <section>
+      <h2>Historia e Gjimnazit “Sami Frashëri”</h2>
+      <p>
+        Gjimnazi “Sami Frashëri” – Tiranë
+
+ Gjimnazi “Sami Frashëri” është një nga shkollat e njohura të qytetit të Tiranës.
+ Ai ofron një mjedis modern dhe mbështetës për nxënësit,
+ ku ata mund të zhvillojnë aftësitë e tyre akademike dhe personale.
+ Shkolla ka një staf mësuesish të kualifikuar dhe të përkushtuar, 
+ të cilët ndihmojnë nxënësit të arrijnë sukses në lëndët e ndryshme dhe të përgatiten për sfidat e së ardhmes.
+ Përveç mësimit tradicional, gjimnazi ofron edhe aktivitete kulturore,
+ sportive dhe shkencore, 
+ duke nxitur kreativitetin dhe bashkëpunimin midis nxënësve.
+ Emri i shkollës vjen nga shkrimtari dhe dijetari i shquar shqiptar Sami Frashëri, 
+ një figurë e rëndësishme e Rilindjes Kombëtare, duke reflektuar vlerat e dijes, kulturës dhe patriotizmit.
+ Gjimnazi “Sami Frashëri” mbetet një vend ku çdo nxënës ka mundësi të mësojë, të rritet dhe të zhvillohet në mënyrë të plotë.
+      </p>
+    </section>
+
+    <section>
+      <h2>Fjalëkryq Letrar</h2>
+      <p>
+        Ndërto një fjalëkryq me temat: Prometeu, Iliada, Çajld Haroldi, Fausti, Medea, Ferri i Dantes Alighieri, Hamleti dhe
+        Katedralja e Parisit. Çdo fjalë lidhet me letërsinë botërore dhe kryeveprat klasike.
+      </p>
+    </section>
+
+    <section>
+      <h2>Klubet e Shkollës</h2>
+      <div class="clubs">
+        <div class="club">
+          <img src="https://source.unsplash.com/400x300/?debate" />
+          <h3>Klubi i Debatit</h3>
+          <p>Zhvillon aftësi argumentimi, mendim kritik dhe komunikim publik.</p>
+        </div>
+        <div class="club">
+          <img src="https://source.unsplash.com/400x300/?volleyball" />
+          <h3>Klubi i Volejbollit</h3>
+          <p>Nxit sportin, bashkëpunimin dhe shëndetin fizik.</p>
+        </div>
+        <div class="club">
+          <img src="https://source.unsplash.com/400x300/?programming" />
+          <h3>Klubi i Programimit</h3>
+          <p>Fokusuar në kodim, teknologji dhe zgjidhje inovative.</p>
+        </div>
+        <div class="club">
+          <img src="https://source.unsplash.com/400x300/?music" />
+          <h3>Klubi i Muzikës</h3>
+          <p>Zhvillon talentin muzikor dhe krijimtarinë artistike.</p>
+        </div>
+        <div class="club">
+          <img src="https://source.unsplash.com/400x300/?chess" />
+          <h3>Klubi i Shahut</h3>
+          <p>Përmirëson logjikën, strategjinë dhe përqendrimin.</p>
+        </div>
+        <div class="club">
+          <img src="blob:https://web.whatsapp.com/2c3685b7-9e98-4212-ad6e-35469d5c2d99" />
+          <h3>Klubi i Pikturës</h3>
+          <p>Nxit shprehjen artistike dhe kreativitetin vizual.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© Gazeta e Shkollës Sami Frashëri</p>
+    </footer>
+  </div>
+
+  <script>
+    const dateEl = document.getElementById('date');
+    const today = new Date();
+    const options = { day: '2-digit', month: '2-digit', year: 'numeric' };
+    dateEl.textContent = 'Data: ' + today.toLocaleDateString('sq-AL', options);
+
+    const quotes = {
+      1: 'Në vend që të shesësh dituri dhe zotësi, përpiqu t’i fitosh ato.',
+      2: 'Njerëzit janë të njëjtë para natyrës, edukata i bën të dallohen.',
+      3: 'Njerëzit e mirë janë të gjykuar të bëhen skllevër të të këqijve.',
+      4: 'Liria është thelbi i shpirtit dhe i mendjes. Aty ku s’ka liri, mendja dhe shpirti thahen si bima pa ujë.',
+      5: 'Zbavitja më e bukur për njerinë është leximi; shoku më i mirë libri.',
+      6: 'Shoku më i pavlefshëm është ai, i cili, për një fjalë që ka dëgjuar për shokun e tij, nuk e do më atë.',
+      0: 'Duhen shumë mend që të mund shoqërohesh me njerëz pa mend.'
+    };
+
+    document.getElementById('quote').textContent = quotes[today.getDay()];
+  </script>
+</body>
+</html>
